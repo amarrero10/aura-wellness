@@ -16,7 +16,7 @@ const services = [
     detail:
       "We harness the power of advanced, expert-led treatments in our personalized approach to help every client achieve their ideal weight and live a healthier, happier life. Our tools include appetite suppressants, vitamin injections, and hormone optimization.",
     href: "/services/medical-weight-loss",
-    image: "https://placehold.co/600x400/1C3428/2d6b43?text=.",
+    image: "/weight-loss.jpg",
     color: "bg-forest-800",
   },
   {
@@ -29,7 +29,7 @@ const services = [
     detail:
       "CoolSculpting® uses advanced cryolipolysis technology to target and freeze fat cells beneath the skin, safely and effectively. Once frozen, the treated fat cells are naturally eliminated by your body over time — leaving you with a smoother, more sculpted silhouette.",
     href: "/services/coolsculpting",
-    image: "https://placehold.co/600x400/1C3428/2d6b43?text=.",
+    image: "/cool-sculpting.jpg",
     color: "bg-forest-700",
   },
   {
@@ -42,7 +42,7 @@ const services = [
     detail:
       "We are proud to offer the convenience of telehealth services, allowing you to access expert guidance and support for your hormone optimization, anti-aging, hair growth, and weight-loss needs from anywhere.",
     href: "/services/telehealth",
-    image: "https://placehold.co/600x400/1C3428/2d6b43?text=.",
+    image: "/telehealth.jpg",
     color: "bg-forest-800",
   },
   {
@@ -55,7 +55,7 @@ const services = [
     detail:
       "Our comprehensive services in Hormone Replacement Therapy and Anti-aging & Regenerative Medicine are transforming lives and redefining wellness.",
     href: "/services/coming-soon",
-    image: "https://placehold.co/600x400/1C3428/2d6b43?text=.",
+    image: "/coming-soon.jpg",
     color: "bg-forest-700",
   },
 ];

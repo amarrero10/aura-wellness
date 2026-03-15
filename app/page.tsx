@@ -387,7 +387,7 @@ export default function HomePage() {
       {/* ─── FAQ TEASER (YELLOW) ────────────────────────────────────── */}
       <section
         className="py-24 lg:py-32 relative overflow-hidden"
-        style={{ backgroundColor: "#E8F56A" }}
+        style={{ backgroundColor: "#C2C980" }}
       >
         <div
           className="absolute inset-0 opacity-[0.07] pointer-events-none"

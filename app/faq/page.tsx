@@ -15,10 +15,6 @@ const faqCategories = [
         a: "Aura Wellness is a health and wellness clinic serving Tampa Bay and surrounding areas. We offer Medical Weight Loss, CoolSculpting® body contouring, Telehealth services, and have Hormone Replacement Therapy launching soon. Our Board-Certified Nurse Practitioner, Algery Al-Hafi APRN-BC, leads all care.",
       },
       {
-        q: "Where is Aura Wellness located?",
-        a: "We are located at 3690 W Gandy Blvd APT 405, Tampa, FL 33611. We also offer telehealth services so you can access care from anywhere.",
-      },
-      {
         q: "How do I schedule an appointment?",
         a: "You can call us at (813) 755-4461 or fill out the appointment request form on our Contact Us page. We'll get back to you quickly to get you scheduled.",
       },
@@ -139,7 +135,7 @@ export default function FAQPage() {
       {/* ─── HERO BANNER (YELLOW) ───────────────────────────────────── */}
       <section
         className="pt-40 pb-20 relative overflow-hidden"
-        style={{ backgroundColor: "#E8F56A" }}
+        style={{ backgroundColor: "#C2C980" }}
       >
         <div
           className="absolute inset-0 opacity-[0.07] pointer-events-none"
@@ -266,7 +262,7 @@ export default function FAQPage() {
       {/* ─── STILL HAVE QUESTIONS (YELLOW) ────────────────────────── */}
       <section
         className="py-24 relative overflow-hidden"
-        style={{ backgroundColor: "#E8F56A" }}
+        style={{ backgroundColor: "#C2C980" }}
       >
         <div
           className="absolute inset-0 opacity-[0.06] pointer-events-none"

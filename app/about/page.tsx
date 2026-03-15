@@ -94,8 +94,8 @@ export default function AboutPage() {
             >
               <div className="aspect-square relative overflow-hidden">
                 <Image
-                  src="https://placehold.co/800x800/1C3428/2d6b43?text=."
-                  alt="Aura Wellness"
+                  src="/our-promise.jpg"
+                  alt="Our Promise — Aura Wellness"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
