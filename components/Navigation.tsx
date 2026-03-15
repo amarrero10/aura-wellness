@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "motion/react";
@@ -16,6 +17,8 @@ const navLinks = [
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const pathname = usePathname();
+  const hasDarkHero = pathname !== "/faq" && pathname !== "/services";
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 40);
@@ -55,7 +58,7 @@ export default function Navigation() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`nav-link pb-0.5 ${scrolled ? "" : "!text-cream-100 hover:!text-gold-300"}`}
+                  className={`nav-link pb-0.5 ${!scrolled && hasDarkHero ? "!text-cream-100 hover:!text-gold-300" : ""}`}
                 >
                   {link.label}
                 </Link>
@@ -72,7 +75,7 @@ export default function Navigation() {
               </Link>
               <button
                 onClick={() => setMobileOpen(!mobileOpen)}
-                className={`md:hidden p-2 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-gold-500 ${scrolled || mobileOpen ? "text-forest-800" : "text-cream-100"}`}
+                className={`md:hidden p-2 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-gold-500 ${!scrolled && hasDarkHero && !mobileOpen ? "text-cream-100" : "text-forest-800"}`}
                 aria-label="Toggle menu"
               >
                 <span className="flex flex-col justify-center items-center w-[22px] h-[22px] gap-0">

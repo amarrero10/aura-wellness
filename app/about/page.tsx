@@ -131,7 +131,7 @@ export default function AboutPage() {
             >
               <div className="aspect-[3/4] relative overflow-hidden max-w-sm mx-auto lg:mx-0">
                 <Image
-                  src="https://placehold.co/600x800/1C3428/2d6b43?text=."
+                  src="/algery-green3.jpg"
                   alt="Algery Al-Hafi APRN-BC"
                   fill
                   className="object-cover"
