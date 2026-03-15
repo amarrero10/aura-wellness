@@ -161,6 +161,19 @@ export default function Footer() {
             Not a substitute for professional medical advice.
           </p>
         </div>
+        <div className="mt-4 text-center">
+          <p className="text-xs text-cream-200/20 font-dm">
+            Developed by{" "}
+            <a
+              href="https://www.albert-dev.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cream-200/35 hover:text-gold-400 transition-colors duration-200 underline underline-offset-2"
+            >
+              Marrero Web Studio
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
